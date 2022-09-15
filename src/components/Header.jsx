@@ -10,7 +10,6 @@ import { MyOrder } from '../containers/MyOrder';
 import { MobileMenu } from './MobileMenu';
 
 export const Header = () => {
-    
 
     const [toggle, setToggle] = useState(false);//show user menu my orders, my account, sign out
 
