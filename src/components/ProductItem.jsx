@@ -41,7 +41,7 @@ export const ProductItem = ({product}) => {
 
   return (
 	  <div className="ProductItem">
-		  <img src={product.images.length !== 0 ? productImage : `https://bitsofco.de/content/images/2018/12/broken-1.png`} alt={product.title} />
+		  <img src={product.images.length !== 0 ? product.images[0] : `https://bitsofco.de/content/images/2018/12/broken-1.png`} alt={product.title} />
 		  <div className="product-info">
 			  <div>
 				  <p>${product.price}</p>
